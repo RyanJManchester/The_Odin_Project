@@ -1,0 +1,13 @@
+body {
+  background-color: rgb(190, 209, 211);
+}
+img {
+  max-width: 130px;
+}
+img:hover {
+  max-width: 145px;
+  max-height: fit-content;
+}
+.choices {
+  display: inline-block;
+}
