@@ -1,0 +1,38 @@
+label {
+	display:grid;
+	width:auto;
+	align-items:center;
+	text-align:center;
+	margin:auto ;
+	}
+form {
+	padding:30vw;
+	padding-top:0px;
+	margin:auto;
+	flex-wrap:wrap;
+}
+#form-background-div {
+	
+}
+.container {
+  width: 100%;
+  margin: 3.125rem auto 0 auto;
+	background-color:#769d78;
+}
+#header {
+	margin:auto;
+	text-align:center;
+}
+html {
+	font-size:20px;
+}
+#comments {
+	display:flex;
+	width:100%;
+}
+#submit {
+	width:100%;
+}
+body: {
+	color:;
+}

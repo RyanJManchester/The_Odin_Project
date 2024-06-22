@@ -1,0 +1,53 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<head>
+</head>
+<body class="container">
+  <div id="header">
+    <h1 id="title">Battle of the Bikes Survey Form</h1>
+    <p id="description" >Fill in the survey for a chance to win your dream bike from evo! Giant, sram or shimano,<br> 29 or 27! the competitive opinion results will be posted on our insta @evocycles.</p>
+  </div>
+	<div id="form-background-div">
+  <form action="" id="survey-form">
+   <br>
+			<label for="name" id="name-label">Name</label>
+    <input id="name" type="text" required name="name" placeholder="Full Name"</input>
+    
+    <label for="email" id="email-label">Email</label>
+    <input id="email" type="email" required name="email" placeholder="example@gmail.com"</input>
+    
+    <label for="number" id="number-label">Age</input>
+    <input id="number" type="number" required name="number" placeholder="18" min="18" max="100" </input>
+<br>      
+			<label for="dropdown">Please select</label>
+			<select id="dropdown" style="font-size:20px">
+				<option value="Giant" >Giant</option>
+				<option value="Trek" >Trek</option>
+				<option value="Santa_Cruz" >Santa Cruz</option>
+				<option value="Kona" >Kona</option>
+				<option value="Rocky Mountain">Rocky Mountain</option>
+			</select>
+			<br>
+			
+			<label for="brakes" id="Brakes" >Preferred Brakes?</label>
+				<input id="brakes" type="radio" required name="brakes" id="shimano" value="shimano">Shimano</input><input id="brakes" type="radio" name="brakes" id="sram" value="sram">Sram</input>
+			</label>
+<br>
+<label for="wheel_size" id="wheel_size">Wheel Size?</label>
+				<input id="wheel_size" type="radio" requi name="wheel_size" id="27.5" value="27.5">27.5</input>
+	<input id="wheel_size" type="radio" name="wheel_size" id="29" value="29">29</input>
+			</label>
+<br>
+<label id="checkboxes">A Few answers about how you ride:</label>
+</br>
+<input id="checkboxes" type="checkbox" name="competed" id="competed" value="competed">You Compete / have competed in a race</input>
+<br>
+<input id="checkboxes" type="checkbox" name="jumps" id="jumps" value="jumps">Like Downhill Jumps</input>
+<input id="checkboxes" type="checkbox" name="rides_weekly" id="rides_weekly" value="rides_weekly">You Ride Weekly</input>	<br>
+<label for="comments">Comments</label>
+<textarea id="comments">type here</textarea>
+<br>
+<button id="submit" type="submit" style="font-size:30px;background-color:green;border:3px solid black">Submit</button>
+  </form>
+</div>
+</body>

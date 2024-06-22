@@ -1,0 +1,126 @@
+html {
+  height: 100%;
+}
+li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: black;
+  padding-left: 11px;
+}
+#search {
+  border-radius: 80px;
+  height: 30px;
+}
+.google-logo {
+  max-width: 280px;
+  align-self: center;
+  margin-top: 90px;
+  margin-bottom:20px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100%;
+  width: 100%;
+  min-height: 100%;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.nav {
+  height: 100%;
+  padding: 10px 20px;
+}
+.nav {
+  height: 35px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: ;
+}
+#menu-icon {
+  width: 48px;
+  padding-right: 20px;
+}
+.link {
+  grid-area: link;
+  padding-right: 10px;
+  padding-left: 10px;
+  font-size: 13px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  color: black;
+}
+.link:hover {
+  text-decoration: underline;
+}
+#profile-pic {
+  max-width: 35px;
+  max-height: 70%;
+  border-radius: 50%;
+}
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#top-footer {
+  border-style: solid;
+  border-width: 0px 0px 2px 0px;
+  border-color: black;
+  padding: 8px 0px 5px 30px;
+  font-size: 18px;
+}
+.footer {
+  background-color: #f2f2f2;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  font-size: 16px;
+}
+#footer {
+  position: absolute;
+  bottom: 0;
+  font-weight: 300;
+  width: 100%;
+  line: height 1.5em;
+  background-color: #f2f2f2;
+}
+.bottom-footer {
+  margin: 20px;
+}
+.footer-left {
+  align-items: flex-start;
+}
+.footer-right {
+  align-items: flex-end;
+}
+.search-input {
+  max-width: 90%;
+  height: 35px;
+  width: 420px;
+  border-radius: 20px;
+}
+.box-shadow:hover {
+  box-shadow: 0px 0px 3px grey;
+}
+.button {
+  height: 36px;
+  width: 130px;
+  background-color: #fdfdfd;
+  border-radius: 8px;
+  font-size: 13px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+#left-btn {
+  margin-left: 10px;
+}
